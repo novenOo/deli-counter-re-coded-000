@@ -8,11 +8,8 @@ else
 end
 end
 def take_a_number(katz_deli,person)
-  if katz_deli<< (person)
+   katz_deli<< (person)
     puts "Welcome, #{person}. You are number #{katz_deli.size} in line."
-  elsif
-  puts "Welcome, #{katz_deli}. You are number #{katz_deli.size} in line."
-end
 end
 def now_serving(katz_deli)
   if katz_deli.empty?
